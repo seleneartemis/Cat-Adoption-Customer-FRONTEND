@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+  background: #2F4A77;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+
+ .wrapper .upper_nav .leftside .logo-image{
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.wrapper .upper_nav .leftside .logo-image .img-fluid{
+  max-width: 100%;
+}
+
+.wrapper .upper_nav{
+  margin-top: 0px;
+  width: 100%;
+  height: 65px;
+  background: #F9DA84;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .upper_nav .leftside{
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .upper_nav .leftside .logo p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #0A0E29;
+  font-family: "Century Schoolbook", sans-serif;
+  margin-right: 25px;
+}
+
+.wrapper .upper_nav .leftside .logo p span{
+  color: #0A0E29;
+  font-family: "Century Schoolbook", sans-serif;
+}
+
+.wrapper .upper_nav .rightside ul{
+  display: flex;
+}
+
+.wrapper .upper_nav .rightside ul li{
+  margin: 0 12px;
+}
+
+.wrapper .upper_nav .rightside ul li a{
+  display: block;
+  padding: 8px 10px;
+  color: #0A0E29;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.wrapper .lower_nav{
+  width: 100%;
+  background: #2D3259;
+  text-align: center;
+}
+
+.wrapper .lower_nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 16px 50px;
+}
+
+.wrapper .lower_nav ul li a{
+  display: block;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #F9DA84;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.wrapper .lower_nav ul li:hover{
+  background-color: #2F4A77;
+  padding: 16.5px 50px;
+}
+
+.wrapper .lower_nav ul li.active {
+  background-color: #2F4A77;
+  padding: 16.5px 50px;
+}
+
+
+/*ABOUT US*/
+
+.wholecont{
+margin-top: 30px;
+}
+
+.container{
+  margin:0 auto;
+  background-color: white;
+  width: 750px;
+  height: 750px;
+  border-radius: 20px;
+}
+
+.container h2{
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+ text-align: center;
+ letter-spacing: 2px;
+}
+
+.container .textbox{
+margin:0 auto;
+width: 650px;
+}
+
+.container .textbox p{
+padding-top: 25px;
+text-align: justify;
+line-height: 35px;
+font-family: 'Varela Round', sans-serif;
+}
+
+
+
+/*ADOPT */
+
+*{
+box-sizing: border-box;
+}
+    /* Set additional styling options for the columns*/
+.column {
+float: left;
+width: 45%;
+margin: 30px;
+margin-bottom: 0px;
+border-radius: 25px
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.row .column {
+  display: inline-flex;
+  width: 45%;
+  text-align: center;
+  background-color: #F9DA84;
+
+}
+
+ .row .column .cat-img{
+  width: 200px;
+ height: 200px;
+ overflow: hidden;
+ margin: 10px;
+}
+
+.row .column .cat-img .img-fluid{
+  max-width: 100%;
+  border-radius: 20px
+}
+
+.row .column .title{
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+
+.row .column .title p{
+  font-size: 14px;
+  color: #0A0E29;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.row .column .title h2{
+  font-size: 26px;
+  font-weight: bold;
+  color: #0A0E29;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+.row .column .title button {
+  outline: 0;
+  background: #2D3259;
+  width: 90%;
+  border: 0;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+
+}
+
+.row .column .title .adoptbutton {
+margin-top: 10px;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+.title button:hover,.title button:active,.title button:focus {
+  background: #F9DA84;
+}
+
+.row-in{
+ width:100%;
+ padding: 0px;
+ margin-top:5px;
+ margin-bottom: 5px;
+}
+
+.info {
+float: left;
+width: 70%;
+height: 50%;
+margin: 0px;
+}
+
+.row-in:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.row-in .info {
+  width: 50%;
+}
+
+.row-in .info p{
+  text-align: left;
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 30px;
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
